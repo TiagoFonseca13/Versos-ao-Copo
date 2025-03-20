@@ -1,0 +1,64 @@
+/* Resetando o estilo para ter uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #8B0000; /* Bordô */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+}
+
+/* Seções principais */
+main {
+    padding: 20px;
+}
+
+/* Tabela de alérgenos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #8B0000; /* Bordô */
+    color: white;
+}
+
+/* Rodapé */
+footer {
+    background-color: #8B0000; /* Bordô */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
